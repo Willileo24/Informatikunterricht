@@ -20,12 +20,12 @@ Actor.isAtEdge();
 ```
 
 ### Aussehen ändern
-```
+```java
 Actor.setImage(String bildDatei);
 ```
 
 ### Auf Welt zugreifen
-```
+```java
 Actor.getWorld();
 ```
 
