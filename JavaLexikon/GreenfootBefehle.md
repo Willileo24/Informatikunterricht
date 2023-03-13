@@ -19,6 +19,16 @@ Actor.turn(int gradZahl);
 Actor.isAtEdge();
 ```
 
+### Aussehen ändern
+```
+Actor.setImage(String bildDatei);
+```
+
+### Auf Welt zugreifen
+```
+Actor.getWorld();
+```
+
 ## Welt Befehle
 
 ```World``` muss bei folgenden Befehlen immer durch ```this``` (wenn man sich in der Welt-Klasse befindet) oder den Namen einer anderen Welt ersetzt werden.
@@ -33,4 +43,9 @@ World.addObject(Actor actor, int xKoordinate, int yKoordinate);
 ### Tastatureingaben auslesen
 ```java
 Greenfoot.isKeyDown(String taste);
+```
+
+### Programmausführung verzögern
+```java
+Greenfoot.delay(int zeitInMs);
 ```
